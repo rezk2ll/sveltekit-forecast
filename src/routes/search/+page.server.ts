@@ -7,8 +7,6 @@ export const actions: Actions = {
 		const data = await request.formData();
 		const city = data.get('city');
 
-		console.debug(city);
-
 		if (!city) {
 			return invalid(400, { city });
 		}

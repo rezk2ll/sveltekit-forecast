@@ -13,7 +13,7 @@
 	<div class="card-body items-center text-center">
 		<h2 class="card-title">{current.description} !</h2>
 		<div class="flex flex-row">
-			<button class="btn btn-disabled rounded-none gap-1">
+			<button class="btn btn-disabled rounded-none gap-1 btn-sm">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 384 512"
@@ -25,7 +25,7 @@
 				>
 				<div class="badge badge-ghost">{name}</div>
 			</button>
-			<button class="btn btn-disabled rounded-none">
+			<button class="btn btn-disabled rounded-none btn-sm">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 320 512"
@@ -37,7 +37,7 @@
 				>
 				<div class="badge badge-accent">{main.temp}°</div>
 			</button>
-			<button class="btn btn-disabled rounded-none gap-2">
+			<button class="btn btn-disabled rounded-none gap-2 btn-sm">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 512 512"
@@ -50,6 +50,6 @@
 				<div class="badge badge-info">{wind.speed} m/s</div>
 			</button>
 		</div>
-		<a class="btn btn-accent w-full my-4" href="/search"> search for a city → </a>
+    <a class="relative btn btn-accent w-96 my-4" href="/search"> search for a city → </a>
 	</div>
 </div>

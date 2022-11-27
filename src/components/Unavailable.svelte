@@ -4,9 +4,9 @@
 	export let reason: GeolocationErrorType;
 </script>
 
-<template>
+<div class="flex flex-row items-center justify-center">
 	{#if reason === 'support'}
-		<div class="alert alert-warning shadow-lg">
+		<div class="alert alert-warning shadow-lg w-auto">
 			<div>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
 			</div>
 		</div>
 	{:else if reason === 'permission'}
-		<div class="alert alert-error shadow-lg">
+		<div class="alert alert-error shadow-lg w-auto">
 			<div>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@
 			</div>
 		</div>
 	{:else if reason === 'timeout'}
-		<div class="alert bg-slate-500 shadow-lg">
+		<div class="alert bg-slate-500 shadow-lg w-auto">
 			<div>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@
 			</div>
 		</div>
 	{:else if reason === 'position_unavailable'}
-		<div class="alert alert-warning shadow-lg">
+		<div class="alert alert-warning shadow-lg w-auto">
 			<div>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -90,4 +90,4 @@
 			</div>
 		</div>
 	{/if}
-</template>
+</div>
