@@ -23,7 +23,7 @@
 				<span>Geolocation is not available in your browser</span>
 			</div>
 			<div class="flex-none">
-				<button class="btn btn-sm btn-accent">try searching instead</button>
+				<a class="btn btn-accent w-full my-4" href="/search"> search for a city → </a>
 			</div>
 		</div>
 	{:else if reason === 'permission'}
@@ -44,7 +44,7 @@
 				<span>we don't have permission to get your position.</span>
 			</div>
 			<div class="flex-none">
-				<button class="btn btn-sm btn-accent">try searching instead</button>
+				<a class="btn btn-accent w-full my-4" href="/search"> search for a city → </a>
 			</div>
 		</div>
 	{:else if reason === 'timeout'}
@@ -64,7 +64,7 @@
 				>
 				<span>Timed out! we couldn't get your position in time</span>
 				<div class="flex-none">
-					<button class="btn btn-sm btn-accent">try searching instead</button>
+					<a class="btn btn-accent w-full my-4" href="/search"> search for a city → </a>
 				</div>
 			</div>
 		</div>
@@ -86,7 +86,7 @@
 				<span>Hmmm your position is not available!</span>
 			</div>
 			<div class="flex-none">
-				<button class="btn btn-sm btn-accent">try searching instead</button>
+				<a class="btn btn-accent w-full my-4" href="/search"> search for a city → </a>
 			</div>
 		</div>
 	{/if}

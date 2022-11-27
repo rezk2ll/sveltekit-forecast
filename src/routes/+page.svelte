@@ -12,5 +12,7 @@
     <Unavailable reason={data.reason} />
 	{:else if weather}
 		<WeatherDetails {weather} />
+	{:else}
+		<Unavailable reason="support" />
 	{/if}
 </template>
