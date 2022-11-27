@@ -22,8 +22,8 @@
 						loading = true;
 
 						return async ({ update }) => {
+              await update();
 							loading = false;
-							update();
 						};
 					}}
 				>
@@ -71,7 +71,7 @@
 						<span>can't find the city you are looking for, try another</span>
 					</div>
 				</div>
-			{:else if form?.failed}
+			{:else if form?.failed && !loading}
 				<div class="alert alert-error shadow-lg">
 					<div>
 						<svg
