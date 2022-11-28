@@ -40,7 +40,7 @@
 								placeholder="type a city name"
 								class="input w-full input-md input-accent input-bordered focus:ring-0 focus:ring-offset-0"
 							/>
-							<button class="btn btn-square btn-accent">
+							<button class="btn btn-square btn-accent" name="search">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									class="h-6 w-6"

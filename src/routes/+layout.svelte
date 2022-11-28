@@ -3,7 +3,7 @@
   <meta name="description" content="Weather forecast for your current position or city">
   <meta name="keywords" content="Sveltekit, weather, forecast, openweathermap">
   <meta name="author" content="Khaled Ferjani<ferjani@pm.me>">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <script>

@@ -17,7 +17,7 @@
 	</figure>
 	<div class="card-body items-center text-center">
 		<h2 class="card-title">{current.description} !</h2>
-		<button class="btn btn-disabled rounded-none gap-1 btn-sm w-96">
+		<button class="btn btn-disabled rounded-none gap-1 btn-sm w-96" name="city">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 384 512"
@@ -29,8 +29,8 @@
 			>
 			<div class="badge badge-ghost">{name}</div>
 		</button>
-		<div class="flex flex-row flex-wrap w-96 justify-center">
-			<button class="btn btn-disabled rounded-none btn-sm">
+		<div class="flex flex-row flex-wrap w-96 justify-center btn btn-disabled">
+			<button class="btn btn-disabled rounded-none btn-sm" name="temperature">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 320 512"
@@ -42,7 +42,7 @@
 				>
 				<div class="badge badge-accent">{main.temp}°</div>
 			</button>
-			<button class="btn btn-disabled rounded-none gap-2 btn-sm">
+			<button class="btn btn-disabled rounded-none gap-2 btn-sm" name="wind">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 512 512"
