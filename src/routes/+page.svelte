@@ -9,7 +9,7 @@
 	prefetch("/search");
 </script>
 
-<template>
+<div class="flex items-center justify-center">
 	{#if !data.geolocation && data.reason}
     <Unavailable reason={data.reason} />
 	{:else if weather}
@@ -17,4 +17,4 @@
 	{:else}
 		<Unavailable reason="support" />
 	{/if}
-</template>
+</div>

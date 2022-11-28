@@ -19,7 +19,7 @@
 		loading = false;
 	})
 </script>
-<div class="hero min-h-screen w-full items-center">
+<div class="hero min-h-screen w-full flex justify-center overflow-hidden">
 	<div class="text-center w-full">
 		<div class="w-full">
 			{#if loading}

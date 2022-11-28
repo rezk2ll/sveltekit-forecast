@@ -4,7 +4,7 @@
 	export let reason: GeolocationErrorType;
 </script>
 
-<div class="flex flex-row items-center justify-center">
+<div class="flex items-center justify-center">
 	{#if reason === 'support'}
 		<div class="alert alert-warning shadow-lg w-auto">
 			<div>
