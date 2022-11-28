@@ -8,7 +8,12 @@
 
 <div class="card card-compact w-auto">
 	<figure>
-		<img src="https://openweathermap.org/img/wn/{current.icon}@4x.png" alt={current.main} />
+		<img
+			src="https://openweathermap.org/img/wn/{current.icon}@4x.png"
+			alt={current.main}
+			width="155"
+			height="155"
+		/>
 	</figure>
 	<div class="card-body items-center text-center">
 		<h2 class="card-title">{current.description} !</h2>
@@ -50,6 +55,6 @@
 				<div class="badge badge-info">{wind.speed} m/s</div>
 			</button>
 		</div>
-    <a class="relative btn btn-accent w-96 my-4" href="/search"> search for a city → </a>
+		<a class="relative btn btn-accent w-96 my-4" href="/search"> search for a city → </a>
 	</div>
 </div>
