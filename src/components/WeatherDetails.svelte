@@ -11,8 +11,8 @@
 		<img
 			src="https://openweathermap.org/img/wn/{current.icon}@4x.png"
 			alt={current.main}
-			width="155"
-			height="155"
+			width="200"
+			height="200"
 		/>
 	</figure>
 	<div class="card-body items-center text-center">

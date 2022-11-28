@@ -1,7 +1,7 @@
 {
 	"short_name": "sveltekit-forecast",
 	"name": "sveltekit-forecast",
-	"start_url": "/",
+	"start_url": "https://sveltekit-forecast.vercel.app/",
 	"icons": [
 		{
 			"src": "favicon.png",
@@ -25,7 +25,7 @@
 			"name": "The weather somewhere else",
 			"short_name": "search",
 			"description": "View weather information for a specific city",
-			"url": "/tomorrow?source=pwa",
+			"url": "/search",
 			"icons": [{ "src": "/favicon.png", "sizes": "438x419" }]
 		}
 	],
