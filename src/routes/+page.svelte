@@ -2,9 +2,11 @@
 	import type { GeolocationWeatherData } from '$lib/types';
 	import WeatherDetails from '../components/WeatherDetails.svelte';
 	import Unavailable from '../components/Unavailable.svelte';
+	import { prefetch } from '$app/navigation';
 
 	export let data: GeolocationWeatherData;
 	const { weather } = data;
+	prefetch("/search");
 </script>
 
 <template>

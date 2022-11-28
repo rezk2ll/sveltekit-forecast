@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Search for a city</title>
+</svelte:head>
+
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import WeatherDetails from '../../components/WeatherDetails.svelte';
