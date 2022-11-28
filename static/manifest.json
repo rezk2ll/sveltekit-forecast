@@ -7,7 +7,7 @@
 			"src": "/favicon.png",
 			"type": "image/png",
 			"sizes": "438x419",
-      "purpose": "any"
+			"purpose": "any"
 		}
 	],
 	"background_color": "#272935",
@@ -20,14 +20,18 @@
 			"short_name": "Here",
 			"description": "View weather information for the current position",
 			"url": "/",
-			"icons": [{ "src": "/favicon.png", "sizes": "438x419", "purpose": "any" }]
+			"icons": [
+				{ "src": "/favicon.png", "type": "image/png", "sizes": "438x419", "purpose": "any" }
+			]
 		},
 		{
 			"name": "The weather somewhere else",
 			"short_name": "search",
 			"description": "View weather information for a specific city",
 			"url": "/search",
-			"icons": [{ "src": "/favicon.png", "sizes": "438x419", "purpose": "any" }]
+			"icons": [
+				{ "src": "/favicon.png", "type": "image/png", "sizes": "438x419", "purpose": "any" }
+			]
 		}
 	],
 	"description": "Sveltekit app to check the weather exactly where you are now"
