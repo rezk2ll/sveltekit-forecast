@@ -1,0 +1,33 @@
+{
+	"short_name": "sveltekit-forecast",
+	"name": "sveltekit-forecast",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "favicon.png",
+			"type": "image/png",
+			"sizes": "438x419"
+		}
+	],
+	"background_color": "#272935",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#272935",
+	"shortcuts": [
+		{
+			"name": "The weather here and now",
+			"short_name": "Here",
+			"description": "View weather information for the current position",
+			"url": "/",
+			"icons": [{ "src": "/favicon.png", "sizes": "438x419" }]
+		},
+		{
+			"name": "The weather somewhere else",
+			"short_name": "search",
+			"description": "View weather information for a specific city",
+			"url": "/tomorrow?source=pwa",
+			"icons": [{ "src": "/favicon.png", "sizes": "438x419" }]
+		}
+	],
+	"description": "Sveltekit app to check the weather exactly where you are now"
+}
