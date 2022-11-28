@@ -17,7 +17,7 @@
 
 	afterNavigate(() => {
 		loading = false;
-	})
+	});
 </script>
 <div class="hero min-h-screen w-full flex justify-center overflow-hidden">
 	<div class="text-center w-full">
