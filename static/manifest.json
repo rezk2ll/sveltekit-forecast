@@ -4,10 +4,15 @@
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "/favicon.png",
+			"src": "/favicon_192x192.png",
 			"type": "image/png",
-			"sizes": "438x419",
+			"sizes": "192x192",
 			"purpose": "any"
+		},
+		{
+			"src": "/favicon_512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
 		}
 	],
 	"background_color": "#272935",
@@ -21,7 +26,12 @@
 			"description": "View weather information for the current position",
 			"url": "/",
 			"icons": [
-				{ "src": "/favicon.png", "type": "image/png", "sizes": "438x419", "purpose": "any" }
+				{
+					"src": "/favicon_192x192.png",
+					"type": "image/png",
+					"sizes": "192x192",
+					"purpose": "any"
+				}
 			]
 		},
 		{
@@ -30,7 +40,12 @@
 			"description": "View weather information for a specific city",
 			"url": "/search",
 			"icons": [
-				{ "src": "/favicon.png", "type": "image/png", "sizes": "438x419", "purpose": "any" }
+				{
+					"src": "/favicon_192x192.png",
+					"type": "image/png",
+					"sizes": "192x192",
+					"purpose": "any"
+				}
 			]
 		}
 	],
