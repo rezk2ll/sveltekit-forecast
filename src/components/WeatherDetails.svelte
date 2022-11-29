@@ -11,6 +11,7 @@
 		<img
 			src="https://openweathermap.org/img/wn/{current.icon}@4x.png"
 			alt={current.main}
+			class="object-scale-down"
 			width="400"
 			height="400"
 		/>
